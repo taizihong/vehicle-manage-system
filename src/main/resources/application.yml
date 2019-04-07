@@ -1,0 +1,11 @@
+spring:
+  profiles.active: dev
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    cache-period: 0
+
+mybatis:
+  type-aliases-package: com.example.vehiclemanage.entity
+  mapper-locations: classpath:mapper/*Mapper.xml
